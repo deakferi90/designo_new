@@ -8,5 +8,5 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
   styleUrl: "./header.scss",
 })
 export class Header {
-  ovalImg = "assets/images/Oval.png";
+  ovalImg: string = "assets/images/Oval.png";
 }

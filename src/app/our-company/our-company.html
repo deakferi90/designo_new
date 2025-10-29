@@ -1,1 +1,82 @@
-<p>our-company works!</p>
+<div class="w-[80%] mx-auto mt-[40px] relative">
+  <img
+    src="{{ mainDesktop }}"
+    alt="Main image"
+    class="w-[90vw] h-auto object-cover rounded-lg"
+  />
+
+  <div
+    class="absolute top-0 left-0 w-full h-full flex flex-col justify-center px-[5%] text-white"
+  >
+    <h1 class="font-semibold text-4xl w-[50%] leading-snug">
+      Award-winning custom designs and digital branding solutions
+    </h1>
+
+    <p class="mt-6 w-[64%] text-lg font-normal">
+      With over 10 years in the industry, we are experienced in creating fully
+      responsive websites, app design, and engaging brand experiences. Find out
+      more about our services.
+    </p>
+
+    <button
+      class="cursor-pointer mt-8 uppercase bg-white text-black px-6 py-3 rounded-md font-medium w-fit hover:bg-[#f0f0f0] transition"
+    >
+      Learn more
+    </button>
+  </div>
+</div>
+<div class="w-[80%] mx-auto relative mt-[85px] flex gap-[20px]">
+  <div class="relative w-1/2">
+    <img src="{{ webDesign }}" alt="web" class="w-full h-auto rounded-lg" />
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+    >
+      <p class="uppercase text-[40px] text-white whitespace-nowrap font-bold">
+        WEB DESIGN
+      </p>
+      <div
+        class="mt-4 text-white flex items-center gap-[15px] cursor-pointer justify-center"
+      >
+        VIEW PROJECTS <img src="{{ rightArrow }}" alt="arrow" />
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col justify-between gap-[20px] w-1/2">
+    <div class="relative w-full">
+      <img src="{{ appDesign }}" alt="app" class="w-full h-auto rounded-lg" />
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+      >
+        <p class="uppercase text-[40px] text-white whitespace-nowrap font-bold">
+          APP DESIGN
+        </p>
+        <div
+          class="mt-4 text-white flex items-center gap-[15px] cursor-pointer justify-center"
+        >
+          VIEW PROJECTS <img src="{{ rightArrow }}" alt="arrow" />
+        </div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <img
+        src="{{ graphicDesign }}"
+        alt="graphic"
+        class="w-full h-auto rounded-lg"
+      />
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+      >
+        <p class="uppercase text-[40px] text-white whitespace-nowrap font-bold">
+          GRAPHIC DESIGN
+        </p>
+        <div
+          class="mt-4 text-white flex items-center gap-[15px] cursor-pointer justify-center"
+        >
+          VIEW PROJECTS <img src="{{ rightArrow }}" alt="arrow" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
