@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component } from "@angular/core";
+import { RouterLink, RouterLinkActive } from "@angular/router";
 
 @Component({
-  selector: 'app-header',
-  imports: [RouterLink],
-  templateUrl: './header.html',
-  styleUrl: './header.scss',
+  selector: "app-header",
+  imports: [RouterLink, RouterLinkActive],
+  templateUrl: "./header.html",
+  styleUrl: "./header.scss",
 })
 export class Header {
-  ovalImg = 'assets/images/Oval.png';
+  ovalImg = "assets/images/Oval.png";
 }
