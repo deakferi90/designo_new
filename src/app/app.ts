@@ -10,4 +10,5 @@ import { Header } from "./header/header";
 })
 export class App {
   protected readonly title = signal("designo-multi-page");
+  footerBg: string = "assets/images/footer-bg.png";
 }

@@ -12,4 +12,9 @@ export class OurCompany {
   appDesign: string = "assets/images/app-design-desktop.jpg";
   graphicDesign: string = "assets/images/graphic-design-desktop.jpg";
   rightArrow: string = "assets/images/right-arrow.png";
+  passionate: string = "assets/images/passionate.png";
+  resourceful: string = "assets/images/resourceful.png";
+  friendly: string = "assets/images/friendly.png";
+  firstRectangle: string = "assets/images/Rectangle.png";
+  secondRectangle: string = "assets/images/Rectangle2.png";
 }
